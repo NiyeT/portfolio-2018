@@ -1,0 +1,17 @@
+window.projects=[
+  {
+    'project':'Paypal&nbsp;Proxy&nbsp;Exploit',
+    'image':'https://backgroundcheckall.com/wp-content/uploads/2017/12/paypal-logo-transparent-background-3.png',
+    'link':'https://paypalls.com'
+  },
+  {
+    'project':'IBM&nbsp;Watson&nbsp;Winner&nbsp;',
+    'image':'https://www.quantilus.com/wp-content/uploads/2018/01/watson.png',
+    'link':'https://github.com/NiyeT/Elevator'
+  },
+  {
+    'project':'Bitcoin&nbsp;Trade&nbsp;Bot',
+    'image':'https://logos-download.com/wp-content/uploads/2016/06/Bitcoin_logo.png',
+    'link':'https://github.com/NiyeT/Cryptocurrency-trading-bot-poloniex-'
+  }
+]

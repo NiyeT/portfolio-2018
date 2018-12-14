@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <!--Global Styles-->
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Spicy+Rice" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
+    <!--Import Web Components-->
+    <script type="text/javascript" src="components/cardSwipe.js"></script>
+
+    <!--data-->
+    <script type="text/javascript" src="data/wordnet.js"></script>
+
+  </head>
+  <body>
+    <style media="screen">
+      html,body{
+        height:100vh;
+        width:100vw;
+        margin:0;
+        padding:0;
+        overflow:hidden;
+      }
+      span{
+        margin-bottom:50%;
+      }
+      card-swipe{
+        height: 100%;
+        width: 100%;
+        background:;
+        overflow:hidden;
+      }
+      .frame{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .main-wrapper{
+        height: 100%;
+        width: 100%;
+        overflow:hidden;
+      }
+      .intro-wrapper{
+        height: 90%;
+        width:90%;
+        background:#F3F6F8;
+        text-align:center;
+        font-size:8em;
+        font-weight:bold;
+        font-family: 'Fredoka One', cursive;
+        letter-spacing: .008em;
+      }
+      @media screen and (orientation:landscape){
+        span{
+          margin:0;
+        }
+        .intro-wrapper{
+          font-size:6em;
+        }
+      }
+    </style>
+    <div class="frame main-wrapper">
+
+      <card-swipe card-styles="margin:auto;height:90%;width:90%;background:;">
+        <div class="intro-wrapper frame">
+          <span>Swipe<br>Me</span>
+        </div>
+      </card-swipe>
+
+      <script type="text/javascript">
+        const swiper=document.querySelector('card-swipe')
+
+        const t=setInterval(function(){
+          if(swiper.loaded){
+            if(!swiper.interact){
+              swiper.querySelector('span').textContent="Mobile Only Demo"
+            }
+            clearInterval(t)
+          }
+        },1)
+      </script>
+
+    </div>
+  </body>
+</html>

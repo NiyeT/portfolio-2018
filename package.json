@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "dependencies": {
+    "@polymer/app-layout": "github:polymerelements/app-layout",
+    "@polymer/iron-icon": "github:PolymerElements/iron-icon",
+    "@polymer/iron-icons": "github:PolymerElements/iron-icons",
+    "@polymer/iron-iconset-svg": "github:PolymerElements/iron-iconset-svg",
+    "@polymer/paper-button": "github:PolymerElements/paper-button",
+    "@polymer/paper-card": "github:polymerelements/paper-card",
+    "@polymer/paper-icon-button": "github:PolymerElements/paper-icon-button",
+    "@polymer/paper-input": "github:PolymerElements/paper-input",
+    "@polymer/paper-progress": "github:polymerelements/paper-progress",
+    "@polymer/paper-tooltip": "github:PolymerElements/paper-tooltip",
+    "@polymer/polymer": "^3.0.0",
+    "@vaadin/vaadin-icons": "^4.2.1",
+    "@vaadin/vaadin-ordered-layout": "^1.1.0"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "react-social-icons": "^3.0.0",
+    "wct-browser-legacy": "^1.0.0"
+  }
+}
